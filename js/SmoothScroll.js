@@ -114,7 +114,7 @@ function init() {
              html.offsetHeight <= windowHeight)) {
 
         html.style.height = 'auto';
-        setTimeout(refresh, 10);
+        //setTimeout(refresh, 10); //commont by maoqi 2017.07.14 refresh no definded , I don't know why use refresh and how to implement it.
 
         // clearfix
         if (root.offsetHeight <= windowHeight) {
